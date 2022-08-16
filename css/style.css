@@ -1,0 +1,28 @@
+.foto {
+    height: 563px;
+}
+
+.missao {
+    color: red;
+}
+
+.infos {
+    background-color: #808080;
+
+}
+
+.infos-espacamento {
+    padding: 10px;
+}
+
+.lista {
+    margin-block-start: 50px;
+    padding-inline-start: 200px;
+}
+
+.beneficios {
+
+}
+.imagem-beneficios {
+    float: right;
+}
