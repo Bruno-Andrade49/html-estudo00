@@ -66,3 +66,10 @@ body {
 .img-insta {
     color: white;
 }
+
+.titulo-principal {
+    padding-left: 20px;
+    background-color: #808080;    
+    color: white;
+}
+
