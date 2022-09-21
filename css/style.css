@@ -73,3 +73,7 @@ body {
     color: white;
 }
 
+.rodape {
+    color: inherit;
+    text-decoration: none;
+}
