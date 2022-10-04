@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+
+
+
+    <title>Contato - Barbearia Andrade</title>
+</head>
+
+<body>
+    <header class="header-pag">
+        <div class="caixa">
+            <h1>
+                <img src="./img/logo.png" alt="logoDaBarbearia">
+            </h1>
+            <nav class="navegacao">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">
+                            Produtos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <form>
+
+            <label for="nomeCompleto"> Nome completo </label>
+            <input type="text" id="nomeCompleto" placeholder="Digite seu nome completo..." class="input-padrao" required>
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" placeholder="seuemail@dominio.com" class="input-padrao" required>
+
+            <label for="telefone"> Telefone </label>
+            <input type="tel" id="telefone" placeholder="(xx) 9xxxx-xxxx" class="input-padrao" required>
+
+            <label for="mensagem"> Mensagem </label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem..." rows="10" cols="40" maxlength="500"
+                class="input-padrao" required> </textarea>
+
+
+
+
+
+            <fieldset class="wrapper">
+
+                <legend> Como prefere o nosso contato? </legend>
+
+                <div class="form-group">
+
+
+                    <label for="email"> <input type="radio" id="email" value="email" name="contato">
+                        Email </label>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="ligacao"> <input type="radio" id="ligacao" value="ligacao" name="contato">
+                        Ligação </label>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="whatsapp"> <input type="radio" id="whatsapp" value="whatsapp" name="contato" checked>
+                        WhatsApp </label>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset class="seletor">
+
+            <legend> Qual horário prefere ser atendido? </legend>
+
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+
+
+
+            <input class="btnInput" type="submit" value="Enviar formulário">
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <img src="./img/logo2.png">
+        <p class="Copyright"> &copy; Copyright Barbearia Andrade - 2022</p>
+    </footer>
+</body>
+
+</html>
