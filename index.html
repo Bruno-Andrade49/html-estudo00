@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/reset.css" -->
+    <link rel="stylesheet" href="css/reset.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,66 +21,105 @@
 </head>
 
 <body>
-    <div class="titulo-principal">
-        <header>
-            <h1> Barbearia Andrade</h1>
-        </header>
-    </div>
+    <header class="header-pag">
+        <div class="caixa">
+            <h1>
+                <img src="./img/logo.png" alt="logoDaBarbearia">
+            </h1>
+            <nav class="navegacao">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">
+                            Produtos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div>
         <img class="foto"
-            src="https://www.barbabrava.com.br/wp-content/uploads/2020/10/como-escolher-barbearia-800x300.png" alt="capaDaBarbearia">
+            src="https://www.barbabrava.com.br/wp-content/uploads/2020/10/como-escolher-barbearia-800x300.png"
+            alt="capaDaBarbearia">
     </div>
-    <div class="infos">
-        <div class="infos-espacamento">
-            <h1 align="center"> Sobre a Barbearia Andrade </h1>
-            <p align="center">
-                Você se achará maravilhoso! O homem moderno também cuida da sua aparência e a
-                <strong> Barbearia Andrade </strong> é o melhor lugar para fazer isso!
-            </p>
-            <p align="center"> Quem quer ser bem atendido
-                e voltar para casa mais bonito sabe que a barbearia Andrade é o
-                melhor lugar!
-            </p>
-            <p align="center"> Nossa missão: <strong class="missao"><i>"Proporcionar auto-estima e qualidade de vida aos
-                        cliente!"</i></strong></p>
 
-            <p align="center"> Sextou e você não vai aproveitar a noite sem dar aquele trato, hein? Hoje o que tem é
-                promoção especial para sair daqui com “bigodim finim” e o “cabelim na régua”. </p>
-            <p align="center"> Aqui só trabalha quem entende do assunto e você não vai se arrepender. Venha fazer o
-                esquenta da sexta para animar a noite do jeito certo depois! </p>
+    <main>
+        <div class="infos">
+            <h1 align="center" class="titulo"> Sobre a Barbearia Andrade </h1>
+            <section class="infos-espacamento">
+                <img class="foto-utensilios" src="./img/utensilios.jpg">
+                <p align="center">
+                    Você se achará maravilhoso! O homem moderno também cuida da sua aparência e a
+                    <strong> Barbearia Andrade </strong> é o melhor lugar para fazer isso!
+                </p>
+                <p align="center"> Quem quer ser bem atendido
+                    e voltar para casa mais bonito sabe que a barbearia Andrade é o
+                    melhor lugar!
+                </p>
+                <p align="center"> Nossa missão: <strong class="missao"><i>"Proporcionar auto-estima e qualidade de vida
+                            aos
+                            cliente!"</i></strong></p>
+
+                <p align="center"> Sextou e você não vai aproveitar a noite sem dar aquele trato, hein? Hoje o que tem é
+                    promoção especial para sair daqui com “bigodim finim” e o “cabelim na régua”. </p>
+                <p align="center"> Aqui só trabalha quem entende do assunto e você não vai se arrepender. Venha fazer o
+                    esquenta da sexta para animar a noite do jeito certo depois! </p>
+            </section>
         </div>
-    </div>
 
-    <h2 class="titulo_beneficios" align="center"> <Strong> Benefícios </Strong> </h2>
+        <section class="localizacao">
 
-    <div class="container-beneficios">
-        <ul class="lista">
-            <li> <i> Atendimento de qualidade aos Clientes </i> </li>
-            <li> <i> Espaço organizado </i> </li>
-            <li> <i>Localização </i> </li>
-            <li> <i> Profissionais qualificados </i> </li>
-        </ul>
+            <h3> Localização </h3>
+            <p> Nosso estabelecimento está localizado no coração da cidade! </p>
 
-        <img class="imagem-beneficios"
-            src="https://www.guiadasemana.com.br/contentFiles/image/opt_w320h320/2017/02/FEA/49393_shutterstock-barbearia.jpg">
-    </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15823.085505773863!2d-36.3057181034829!3d-7.490476712125624!
+            2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1664992880252!5m2!1spt-BR!2sbr" width="80%"
+                height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <footer class="footer">
-        <!--
-        <nav>
-            <a href="https://instagram.com/brunoandradee__"> 
-                <img class="img-insta" src="/img/instagram-brands.svg">
-                Meu insta 
-            </a>
-            <a href="https://instagram.com/"> Meu insta </a>
-            <a href="https://instagram.com/"> Meu insta </a>
-        </nav>
-        -->
+        </section>
 
-        <p> Feito por <a class="rodape" target="_blank" href="https://www.instagram.com/brunoandradee__/">
-                @brunoandradee__</a> </p>
+        <div class="section-cinza">
+            <h2 class="titulo" align="center"> Benefícios </h2>
 
+            <div class="container-beneficios">
+                <ul class="lista">
+                    <li> <i> Atendimento de qualidade aos Clientes </i> </li>
+                    <li> <i> Espaço organizado </i> </li>
+                    <li> <i>Localização </i> </li>
+                    <li> <i> Profissionais qualificados </i> </li>
+                </ul>
+
+                <img class="imagem-beneficios"
+                    src="https://www.guiadasemana.com.br/contentFiles/image/opt_w320h320/2017/02/FEA/49393_shutterstock-barbearia.jpg">
+            </div>
+
+            <section class="video-apresentacao">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IdqJRck-t9o"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p> Faça seu agendamento! </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <img src="./img/logo2.png">
+        <p class="Copyright"> &copy; Copyright Barbearia Andrade - 2022</p>
     </footer>
 </body>
 

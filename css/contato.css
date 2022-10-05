@@ -88,6 +88,11 @@ header {
 
 }
 
+nav a:hover {
+    color: #c78C19;
+    text-decoration: underline;
+}
+
 .caixa {
     width: 940px;
     position: relative;

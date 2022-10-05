@@ -1,5 +1,4 @@
 body {
-    background-image: url(../img/background.jpeg);
     font-family: 'Poppins', sans-serif;
     margin: 0;
 
@@ -16,17 +15,19 @@ body {
 }
 
 .infos {
-    background-color: #808080;
-    color: #fff;
-
+    color: rgb(0, 0, 0);
+    height: 400px;
 }
 
-.infos-espacamento {
-    padding: 10px;
-}
 
 .lista {
     margin-block-start: 50px;
+    line-height: 1.5;
+    list-style-type: disc;
+}
+
+.lista::first-line {
+    font-weight: bold;
 }
 
 .imagem-beneficios {
@@ -35,17 +36,12 @@ body {
     border: solid;
 }
 
-.titulo_beneficios {
-    color: #fff;
-    padding: 50px;
-    font-size: 50px;
-}
 
 .container-beneficios {
     height: 400px;
     width: 900px;
     margin: auto;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 30px;
     font-size: 20px;
 }
@@ -55,7 +51,7 @@ body {
     width: 100%;
     height: 130px;
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: #FEFEFE;
     text-align: center;
 }
 
@@ -64,16 +60,126 @@ body {
 }
 
 .img-insta {
-    color: white;
-}
-
-.titulo-principal {
-    padding-left: 20px;
-    background-color: #808080;    
-    color: white;
+    color: #FEFEFE;
 }
 
 .rodape {
     color: inherit;
     text-decoration: none;
+}
+
+
+header {
+    background-color: #BBb;
+}
+
+
+.navegacao li{
+    display: inline;
+    margin: 10px;
+
+    
+}
+
+.navegacao a{
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+.navegacao {
+    position: absolute;
+    top: 160px;
+    right: 0;
+
+}
+
+nav a:hover {
+    color: #c78C19;
+    text-decoration: underline;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
+    background: url('../img/bg.jpg');
+}
+
+.Copyright {
+    color: #fEfEfE;
+    font: 13px;
+    margin: 20px 0 0px;
+}
+
+.titulo {
+    font-size: 2em;
+    clear: left;
+    padding: 50px 0 0;
+}
+
+.titulo strong {
+    font-weight: bold;
+}
+
+.titulo em {
+    font-style: italic;
+}
+
+.titulo h1 {
+    margin-top: 0px;
+}
+
+.foto-utensilios {
+    width: 270px;
+    float: left;
+    padding-right: 10px;
+    
+}
+
+    
+.infos-espacamento {
+    margin: 30px 10% 30px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.infos-espacamento p{
+    margin: 2%;
+}
+
+.localizacao {
+    text-align: center;
+    background: linear-gradient(#FEFEFE, #BBb)
+}
+
+.localizacao h3 {
+    margin: 30px;
+    font-size: 2em;
+}
+
+.localizacao p {
+    margin: 40px;
+}
+
+.video-apresentacao {
+    text-align: center;
+}
+
+.video-apresentacao p {
+
+    margin: 5%;
+}
+
+.section-cinza {
+    background-color: #BBb;
+    height: 1050px;
 }
