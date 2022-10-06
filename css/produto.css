@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 header {
     background-color: #BBb
@@ -96,4 +98,48 @@ footer {
     color: #fff;
     font: 13px;
     margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .infos,
+    .localizacao,
+    .infos-espacamento,
+    iframe,
+    .container-beneficios,
+    .lista
+    main {
+        width: auto;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .navegacao {
+        position: static;
+        padding: 1px;
+        text-align: center;
+    }
+
+    .lista-produtos > ul > li {
+        display: block;
+        border: 2px solid;
+        margin-bottom: 50px;
+    }
+
+    .lista-produtos > ul > li > h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .lista-produtos li:hover h2 {
+        font-size: 35px;
+    }
+
+    
+
+    
 }

@@ -55,8 +55,8 @@ body {
     text-align: center;
 }
 
-.footer > p {
-    margin-top:50px;
+.footer>p {
+    margin-top: 50px;
 }
 
 .img-insta {
@@ -74,19 +74,19 @@ header {
 }
 
 
-.navegacao li{
+.navegacao li {
     display: inline;
     margin: 10px;
 
-    
+
 }
 
-.navegacao a{
-   text-transform: uppercase;
-   color: #000000;
-   font-weight: bold;
-   font-size: 22px;
-   text-decoration: none;
+.navegacao a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .navegacao {
@@ -142,17 +142,17 @@ footer {
     width: 270px;
     float: left;
     padding-right: 10px;
-    
+
 }
 
-    
+
 .infos-espacamento {
     margin: 30px 10% 30px;
     margin-right: 100px;
     text-align: center;
 }
 
-.infos-espacamento p{
+.infos-espacamento p {
     margin: 2%;
 }
 
@@ -182,4 +182,68 @@ footer {
 .section-cinza {
     background-color: #BBb;
     height: 1050px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .infos,
+    .localizacao,
+    .infos-espacamento,
+    iframe,
+    .container-beneficios,
+    .lista {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .navegacao {
+        position: static;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .infos-espacamento {
+        padding: 0;
+        width: 100%;
+        margin: auto;
+    }
+
+    .foto-utensilios {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .titulo {
+        padding-bottom: 50px;
+    }
+
+    .localizacao h3 {
+        padding-top: 100px;
+    }
+
+    .imagem-beneficios {
+        width: 150px;
+        height: 150px;
+        float: none;
+        margin: auto;
+        text-align: center;
+        padding-left: 30%;
+        border: none;
+        
+    }
+
+    .lista {
+        font-size: 15px;
+    }
+
+    .video-apresentacao p {
+        padding-top: 35px;
+    }
+
+
 }

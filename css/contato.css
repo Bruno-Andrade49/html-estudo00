@@ -1,10 +1,14 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 main {
-    width: 940px;
+    width: auto;
     margin: 0 auto;
 }
 
 main form {
-    margin: 40px 0;
+    margin: 5% 10% 5%;
 }
 
 form legend {
@@ -47,7 +51,7 @@ form label {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 0px 10% 10%;
 }
 
 thead {
@@ -110,4 +114,53 @@ footer {
     color: #fff;
     font: 13px;
     margin: 20px 0 0;
+}
+
+.horario {
+    font-size: 20px;
+    margin: 5% 10% 5%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .infos,
+    .localizacao,
+    .infos-espacamento,
+    iframe,
+    .container-beneficios,
+    .lista {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .navegacao {
+        position: static;
+        padding: 1px;
+        text-align: center;
+    }
+
+    table {
+        margin: 100px 25% 100px;
+    }
+
+    main form {
+        padding: 0 50px 0;
+        padding-right: 1px;
+    }
+
+    .btnInput {
+        width: 70%;
+    }
+
+    .horario {
+        text-align: center;
+        margin-top: 90px;
+        
+    }
+
+
 }
