@@ -1,4 +1,4 @@
-<h1 align="center">BRMovie</h1>
+<h1 align="center">Barbearia Andrade</h1>
 
 ## Descrição do Projeto
 <p align="center">O Projeto teve como finalidade praticar e utilizar conceitos assistidos em aulas sobre as linguagens de marcação CSS e HTML, assim, o tal
